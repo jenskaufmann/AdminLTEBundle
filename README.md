@@ -1,24 +1,7 @@
 
---- 
-# THIS BUNDLE IS NOT MAINTAINED ANYMORE
-
-The used AdminLTE version is old.
-Both: supported Symfony and PHP version are EOL.
-
-Issues, bug requests and even pull requests will not neither be answered nor merged.
-
-If you are looking for a modern alternative, check out the Tabler bundle at: https://github.com/kevinpapst/TablerBundle
-
---- 
-
-
-[![Latest Stable Version](https://poser.pugx.org/kevinpapst/adminlte-bundle/v/stable)](https://packagist.org/packages/kevinpapst/adminlte-bundle)
-[![Total Downloads](https://poser.pugx.org/kevinpapst/adminlte-bundle/downloads)](https://packagist.org/packages/kevinpapst/adminlte-bundle)
-[![License](https://poser.pugx.org/kevinpapst/adminlte-bundle/license)](LICENSE)
-
 # AdminLTE Bundle for Symfony
 
-This repository contains an upgraded version of the AvanzuAdminThemeBundle, bringing the AdminLTE theme to Symfony 4.
+This repository contains an upgraded version of the AvanzuAdminThemeBundle, bringing the AdminLTE theme to Symfony 4-7.
 
 ## Introduction
 
@@ -34,7 +17,7 @@ This repository contains an upgraded version of the AvanzuAdminThemeBundle, brin
 
 **Compatibility:**
 
-Version 3.x should be compatible with Symfony 5 and PHP 8, [please leave your feedback](https://github.com/kevinpapst/AdminLTEBundle/issues/144).
+Version 3.x should be compatible with Symfony 5-7 and PHP 8, [please leave your feedback](https://github.com/kevinpapst/AdminLTEBundle/issues/144).
 
 - Version 3.x is only compatible with Symfony >= 4.3
 - Version 2.x of this bundle is compatible with Symfony < 4.3
@@ -44,7 +27,7 @@ Version 3.x should be compatible with Symfony 5 and PHP 8, [please leave your fe
 Some of the main features of this theme bundle:
 
 - Two main layouts for main application and security (login, forgot password, register account...)
-- Support for Symfony 4.x
+- Support for Symfony 4.x-7
 - Support for KNPMenuBundle 
 - Support for FOSUserBundle
 - Webpack-Encore support for building assets
