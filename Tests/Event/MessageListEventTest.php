@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Tests\Event;
+namespace ibisit\AdminLTEBundle\Tests\Event;
 
-use Ibisit\AdminLTEBundle\Event\MessageListEvent;
-use Ibisit\AdminLTEBundle\Model\MessageModel;
-use Ibisit\AdminLTEBundle\Model\UserModel;
+use ibisit\AdminLTEBundle\Event\MessageListEvent;
+use ibisit\AdminLTEBundle\Model\MessageModel;
+use ibisit\AdminLTEBundle\Model\UserModel;
 use PHPUnit\Framework\TestCase;
 
 class MessageListEventTest extends TestCase

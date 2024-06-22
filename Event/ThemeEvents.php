@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Event;
+namespace ibisit\AdminLTEBundle\Event;
 
 /**
  * Holds all events used by the theme

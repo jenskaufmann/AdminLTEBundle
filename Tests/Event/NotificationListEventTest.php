@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Tests\Event;
+namespace ibisit\AdminLTEBundle\Tests\Event;
 
-use Ibisit\AdminLTEBundle\Event\NotificationListEvent;
-use Ibisit\AdminLTEBundle\Helper\Constants;
-use Ibisit\AdminLTEBundle\Model\NotificationModel;
+use ibisit\AdminLTEBundle\Event\NotificationListEvent;
+use ibisit\AdminLTEBundle\Helper\Constants;
+use ibisit\AdminLTEBundle\Model\NotificationModel;
 use PHPUnit\Framework\TestCase;
 
 class NotificationListEventTest extends TestCase

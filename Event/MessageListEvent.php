@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Event;
+namespace ibisit\AdminLTEBundle\Event;
 
-use Ibisit\AdminLTEBundle\Model\MessageInterface;
-use Ibisit\AdminLTEBundle\Repository\MessageRepositoryInterface;
+use ibisit\AdminLTEBundle\Model\MessageInterface;
+use ibisit\AdminLTEBundle\Repository\MessageRepositoryInterface;
 
 /**
  * The MessageListEvent collects all MessageInterface objects that should be rendered in the messages section.

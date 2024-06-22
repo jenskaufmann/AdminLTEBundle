@@ -7,23 +7,23 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Twig;
+namespace ibisit\AdminLTEBundle\Twig;
 
-use Ibisit\AdminLTEBundle\Event\BreadcrumbMenuEvent;
-use Ibisit\AdminLTEBundle\Event\MessageListEvent;
-use Ibisit\AdminLTEBundle\Event\NavbarUserEvent;
-use Ibisit\AdminLTEBundle\Event\NotificationListEvent;
-use Ibisit\AdminLTEBundle\Event\ShowUserEvent;
-use Ibisit\AdminLTEBundle\Event\SidebarMenuEvent;
-use Ibisit\AdminLTEBundle\Event\SidebarUserEvent;
-use Ibisit\AdminLTEBundle\Event\TaskListEvent;
-use Ibisit\AdminLTEBundle\Helper\ContextHelper;
-use Ibisit\AdminLTEBundle\Model\MenuItemInterface;
-use Ibisit\AdminLTEBundle\Model\UserDetailsInterface;
-use Ibisit\AdminLTEBundle\Model\UserInterface;
-use Ibisit\AdminLTEBundle\Repository\MessageRepositoryInterface;
-use Ibisit\AdminLTEBundle\Repository\NotificationRepositoryInterface;
-use Ibisit\AdminLTEBundle\Repository\TaskRepositoryInterface;
+use ibisit\AdminLTEBundle\Event\BreadcrumbMenuEvent;
+use ibisit\AdminLTEBundle\Event\MessageListEvent;
+use ibisit\AdminLTEBundle\Event\NavbarUserEvent;
+use ibisit\AdminLTEBundle\Event\NotificationListEvent;
+use ibisit\AdminLTEBundle\Event\ShowUserEvent;
+use ibisit\AdminLTEBundle\Event\SidebarMenuEvent;
+use ibisit\AdminLTEBundle\Event\SidebarUserEvent;
+use ibisit\AdminLTEBundle\Event\TaskListEvent;
+use ibisit\AdminLTEBundle\Helper\ContextHelper;
+use ibisit\AdminLTEBundle\Model\MenuItemInterface;
+use ibisit\AdminLTEBundle\Model\UserDetailsInterface;
+use ibisit\AdminLTEBundle\Model\UserInterface;
+use ibisit\AdminLTEBundle\Repository\MessageRepositoryInterface;
+use ibisit\AdminLTEBundle\Repository\NotificationRepositoryInterface;
+use ibisit\AdminLTEBundle\Repository\TaskRepositoryInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Twig\Extension\RuntimeExtensionInterface;

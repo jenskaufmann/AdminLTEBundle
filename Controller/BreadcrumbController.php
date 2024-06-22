@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Controller;
+namespace ibisit\AdminLTEBundle\Controller;
 
-use Ibisit\AdminLTEBundle\Event\BreadcrumbMenuEvent;
-use Ibisit\AdminLTEBundle\Event\SidebarMenuEvent;
-use Ibisit\AdminLTEBundle\Model\MenuItemInterface;
+use ibisit\AdminLTEBundle\Event\BreadcrumbMenuEvent;
+use ibisit\AdminLTEBundle\Event\SidebarMenuEvent;
+use ibisit\AdminLTEBundle\Model\MenuItemInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 

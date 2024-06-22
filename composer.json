@@ -48,7 +48,7 @@
         "knplabs/knp-menu-bundle" : "Allows easy menu integration"
     },
     "autoload": {
-        "psr-4": { "Ibisit\\AdminLTEBundle\\": "" }
+        "psr-4": { "ibisit\\AdminLTEBundle\\": "" }
     },
     "scripts": {
         "tests": "vendor/bin/phpunit Tests/",

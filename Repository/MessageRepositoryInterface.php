@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Repository;
+namespace ibisit\AdminLTEBundle\Repository;
 
-use Ibisit\AdminLTEBundle\Model\MessageInterface;
+use ibisit\AdminLTEBundle\Model\MessageInterface;
 
 interface MessageRepositoryInterface
 {

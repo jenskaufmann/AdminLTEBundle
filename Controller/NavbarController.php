@@ -7,14 +7,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Controller;
+namespace ibisit\AdminLTEBundle\Controller;
 
-use Ibisit\AdminLTEBundle\Event\MessageListEvent;
-use Ibisit\AdminLTEBundle\Event\NavbarUserEvent;
-use Ibisit\AdminLTEBundle\Event\NotificationListEvent;
-use Ibisit\AdminLTEBundle\Event\ShowUserEvent;
-use Ibisit\AdminLTEBundle\Event\TaskListEvent;
-use Ibisit\AdminLTEBundle\Helper\ContextHelper;
+use ibisit\AdminLTEBundle\Event\MessageListEvent;
+use ibisit\AdminLTEBundle\Event\NavbarUserEvent;
+use ibisit\AdminLTEBundle\Event\NotificationListEvent;
+use ibisit\AdminLTEBundle\Event\ShowUserEvent;
+use ibisit\AdminLTEBundle\Event\TaskListEvent;
+use ibisit\AdminLTEBundle\Helper\ContextHelper;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpFoundation\Response;
 

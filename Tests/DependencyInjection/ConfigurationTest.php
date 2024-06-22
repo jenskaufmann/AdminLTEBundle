@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Tests\DependencyInjection;
+namespace ibisit\AdminLTEBundle\Tests\DependencyInjection;
 
-use Ibisit\AdminLTEBundle\DependencyInjection\Configuration;
+use ibisit\AdminLTEBundle\DependencyInjection\Configuration;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Config\Definition\Processor;
 

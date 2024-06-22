@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Tests\Event;
+namespace ibisit\AdminLTEBundle\Tests\Event;
 
-use Ibisit\AdminLTEBundle\Event\TaskListEvent;
-use Ibisit\AdminLTEBundle\Model\TaskModel;
+use ibisit\AdminLTEBundle\Event\TaskListEvent;
+use ibisit\AdminLTEBundle\Model\TaskModel;
 use PHPUnit\Framework\TestCase;
 
 class TaskListEventTest extends TestCase

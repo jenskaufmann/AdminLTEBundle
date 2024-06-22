@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Model;
+namespace ibisit\AdminLTEBundle\Model;
 
 /**
  * Representation of a displayable message in the theme's messages section

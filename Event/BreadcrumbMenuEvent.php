@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Event;
+namespace ibisit\AdminLTEBundle\Event;
 
 /**
  * This class SHOULD extend the MenuEvent, but for BC reasons we extend SidebarMenuEvent.

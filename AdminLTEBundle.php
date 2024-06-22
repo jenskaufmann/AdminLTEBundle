@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle;
+namespace ibisit\AdminLTEBundle;
 
-use Ibisit\AdminLTEBundle\DependencyInjection\Compiler\TwigPass;
+use ibisit\AdminLTEBundle\DependencyInjection\Compiler\TwigPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

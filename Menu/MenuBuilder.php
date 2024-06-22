@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Menu;
+namespace ibisit\AdminLTEBundle\Menu;
 
-use Ibisit\AdminLTEBundle\Event\KnpMenuEvent;
+use ibisit\AdminLTEBundle\Event\KnpMenuEvent;
 use Knp\Menu\FactoryInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 

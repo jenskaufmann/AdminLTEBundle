@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Model;
+namespace ibisit\AdminLTEBundle\Model;
 
-use Ibisit\AdminLTEBundle\Helper\Constants;
+use ibisit\AdminLTEBundle\Helper\Constants;
 
 class TaskModel implements TaskInterface
 {

@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Tests\Twig;
+namespace ibisit\AdminLTEBundle\Tests\Twig;
 
-use Ibisit\AdminLTEBundle\Helper\Constants;
-use Ibisit\AdminLTEBundle\Helper\ContextHelper;
-use Ibisit\AdminLTEBundle\Twig\RuntimeExtension;
+use ibisit\AdminLTEBundle\Helper\Constants;
+use ibisit\AdminLTEBundle\Helper\ContextHelper;
+use ibisit\AdminLTEBundle\Twig\RuntimeExtension;
 use PHPUnit\Framework\TestCase;
 
 class RuntimeExtensionTest extends TestCase

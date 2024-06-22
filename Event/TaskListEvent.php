@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Event;
+namespace ibisit\AdminLTEBundle\Event;
 
-use Ibisit\AdminLTEBundle\Model\TaskInterface;
-use Ibisit\AdminLTEBundle\Repository\TaskRepositoryInterface;
+use ibisit\AdminLTEBundle\Model\TaskInterface;
+use ibisit\AdminLTEBundle\Repository\TaskRepositoryInterface;
 
 /**
  * The TaskListEvent collects all TaskInterface objects that should be rendered in the tasks section.

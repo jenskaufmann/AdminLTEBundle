@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Twig;
+namespace ibisit\AdminLTEBundle\Twig;
 
-use Ibisit\AdminLTEBundle\Helper\Constants;
-use Ibisit\AdminLTEBundle\Helper\ContextHelper;
+use ibisit\AdminLTEBundle\Helper\Constants;
+use ibisit\AdminLTEBundle\Helper\ContextHelper;
 use Twig\Extension\RuntimeExtensionInterface;
 
 final class RuntimeExtension implements RuntimeExtensionInterface

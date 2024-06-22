@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Ibisit\AdminLTEBundle\Tests\Model;
+namespace ibisit\AdminLTEBundle\Tests\Model;
 
-use Ibisit\AdminLTEBundle\Model\NotificationModel;
+use ibisit\AdminLTEBundle\Model\NotificationModel;
 use PHPUnit\Framework\TestCase;
 
 class NotificationModelTest extends TestCase
