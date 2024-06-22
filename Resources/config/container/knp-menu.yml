@@ -1,7 +1,7 @@
 services:
 
-    KevinPapst\AdminLTEBundle\Menu\MenuBuilder:
-        class: KevinPapst\AdminLTEBundle\Menu\MenuBuilder
+    ibisit\AdminLTEBundle\Menu\MenuBuilder:
+        class: ibisit\AdminLTEBundle\Menu\MenuBuilder
         arguments:
             - "@knp_menu.factory"
             - "@event_dispatcher"

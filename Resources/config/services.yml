@@ -1,30 +1,30 @@
 services:
 
-    KevinPapst\AdminLTEBundle\Twig\RuntimeExtension:
-        class: KevinPapst\AdminLTEBundle\Twig\RuntimeExtension
+    ibisit\AdminLTEBundle\Twig\RuntimeExtension:
+        class: ibisit\AdminLTEBundle\Twig\RuntimeExtension
         arguments:
             - '@admin_lte_theme.context_helper'
             - '%admin_lte_theme.routes%'
         tags:
             - { name: twig.runtime }
 
-    KevinPapst\AdminLTEBundle\Twig\EventsExtension:
-        class: KevinPapst\AdminLTEBundle\Twig\EventsExtension
+    ibisit\AdminLTEBundle\Twig\EventsExtension:
+        class: ibisit\AdminLTEBundle\Twig\EventsExtension
         arguments:
             - '@event_dispatcher'
             - '@admin_lte_theme.context_helper'
         tags:
             - { name: twig.runtime }
 
-    KevinPapst\AdminLTEBundle\Twig\AdminExtension:
-        class: KevinPapst\AdminLTEBundle\Twig\AdminExtension
+    ibisit\AdminLTEBundle\Twig\AdminExtension:
+        class: ibisit\AdminLTEBundle\Twig\AdminExtension
         tags:
             - { name: twig.extension }
 
     admin_lte_theme.context_helper:
-        class: KevinPapst\AdminLTEBundle\Helper\ContextHelper
+        class: ibisit\AdminLTEBundle\Helper\ContextHelper
         arguments:
             - '%admin_lte_theme.options%'
 
-    KevinPapst\AdminLTEBundle\Helper\ContextHelper:
+    ibisit\AdminLTEBundle\Helper\ContextHelper:
         alias: admin_lte_theme.context_helper
