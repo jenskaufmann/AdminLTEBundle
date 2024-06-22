@@ -1,7 +1,7 @@
 {
-    "name": "kevinpapst/adminlte-bundle",
+    "name": "ibisit/adminlte-bundle",
     "type": "symfony-bundle",
-    "description": "Admin theme bundle for Symfony 4+ based on AdminLTE 2.4 with FOSUserBundle support",
+    "description": "Admin theme from Kevin Papst bundle for Symfony 4+ based on AdminLTE 2.4 with FOSUserBundle support",
     "license": "MIT",
     "authors": [
         {
@@ -15,6 +15,10 @@
         {
             "name": "Ángel Guzmán Maeso",
             "homepage": "https://shakaran.net/blog"
+        },
+        {
+            "name": "ibis-IT GmbH (Jens Kaufmann)",
+            "homepage": "https://ibis-it.de"
         }
     ],
     "require": {
@@ -44,7 +48,7 @@
         "knplabs/knp-menu-bundle" : "Allows easy menu integration"
     },
     "autoload": {
-        "psr-4": { "KevinPapst\\AdminLTEBundle\\": "" }
+        "psr-4": { "ibisit\\AdminLTEBundle\\": "" }
     },
     "scripts": {
         "tests": "vendor/bin/phpunit Tests/",
