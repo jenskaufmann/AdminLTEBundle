@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Model;
+namespace Ibisit\AdminLTEBundle\Model;
 
-use KevinPapst\AdminLTEBundle\Helper\Constants;
+use Ibisit\AdminLTEBundle\Helper\Constants;
 
 class NotificationModel implements NotificationInterface
 {

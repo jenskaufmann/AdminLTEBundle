@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Event;
+namespace Ibisit\AdminLTEBundle\Event;
 
-use KevinPapst\AdminLTEBundle\Model\NotificationInterface;
-use KevinPapst\AdminLTEBundle\Repository\NotificationRepositoryInterface;
+use Ibisit\AdminLTEBundle\Model\NotificationInterface;
+use Ibisit\AdminLTEBundle\Repository\NotificationRepositoryInterface;
 
 /**
  * The NotificationListEvent collects all NotificationInterface objects that should be rendered in the notification section.

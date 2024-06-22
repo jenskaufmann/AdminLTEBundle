@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Controller;
+namespace Ibisit\AdminLTEBundle\Controller;
 
-use KevinPapst\AdminLTEBundle\Event\ShowUserEvent;
-use KevinPapst\AdminLTEBundle\Event\SidebarMenuEvent;
-use KevinPapst\AdminLTEBundle\Event\SidebarUserEvent;
+use Ibisit\AdminLTEBundle\Event\ShowUserEvent;
+use Ibisit\AdminLTEBundle\Event\SidebarMenuEvent;
+use Ibisit\AdminLTEBundle\Event\SidebarUserEvent;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 

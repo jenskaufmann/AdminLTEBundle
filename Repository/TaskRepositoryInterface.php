@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Repository;
+namespace Ibisit\AdminLTEBundle\Repository;
 
-use KevinPapst\AdminLTEBundle\Model\TaskInterface;
+use Ibisit\AdminLTEBundle\Model\TaskInterface;
 
 interface TaskRepositoryInterface
 {

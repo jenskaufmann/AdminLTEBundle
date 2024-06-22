@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Twig;
+namespace Ibisit\AdminLTEBundle\Twig;
 
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;

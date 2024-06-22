@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Tests\Helper;
+namespace Ibisit\AdminLTEBundle\Tests\Helper;
 
-use KevinPapst\AdminLTEBundle\Helper\ContextHelper;
+use Ibisit\AdminLTEBundle\Helper\ContextHelper;
 use PHPUnit\Framework\TestCase;
 
 class ContextHelperTest extends TestCase

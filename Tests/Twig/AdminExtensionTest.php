@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Tests\Twig;
+namespace Ibisit\AdminLTEBundle\Tests\Twig;
 
-use KevinPapst\AdminLTEBundle\Twig\AdminExtension;
+use Ibisit\AdminLTEBundle\Twig\AdminExtension;
 use PHPUnit\Framework\TestCase;
 
 class AdminExtensionTest extends TestCase

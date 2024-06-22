@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Event;
+namespace Ibisit\AdminLTEBundle\Event;
 
-use KevinPapst\AdminLTEBundle\Model\NavBarUserLink;
-use KevinPapst\AdminLTEBundle\Model\UserDetailsInterface;
-use KevinPapst\AdminLTEBundle\Model\UserInterface;
+use Ibisit\AdminLTEBundle\Model\NavBarUserLink;
+use Ibisit\AdminLTEBundle\Model\UserDetailsInterface;
+use Ibisit\AdminLTEBundle\Model\UserInterface;
 
 /**
  * Collect the UserInterface object that should be rendered in the user section.

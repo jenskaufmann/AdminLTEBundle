@@ -7,13 +7,13 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Tests\Controller;
+namespace Ibisit\AdminLTEBundle\Tests\Controller;
 
-use KevinPapst\AdminLTEBundle\Controller\NavbarController;
-use KevinPapst\AdminLTEBundle\Event\MessageListEvent;
-use KevinPapst\AdminLTEBundle\Event\NotificationListEvent;
-use KevinPapst\AdminLTEBundle\Event\TaskListEvent;
-use KevinPapst\AdminLTEBundle\Helper\ContextHelper;
+use Ibisit\AdminLTEBundle\Controller\NavbarController;
+use Ibisit\AdminLTEBundle\Event\MessageListEvent;
+use Ibisit\AdminLTEBundle\Event\NotificationListEvent;
+use Ibisit\AdminLTEBundle\Event\TaskListEvent;
+use Ibisit\AdminLTEBundle\Helper\ContextHelper;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\Container;
 use Symfony\Component\EventDispatcher\EventDispatcher;

@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Helper;
+namespace Ibisit\AdminLTEBundle\Helper;
 
 class ContextHelper extends \ArrayObject
 {

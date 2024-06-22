@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Tests\Model;
+namespace Ibisit\AdminLTEBundle\Tests\Model;
 
-use KevinPapst\AdminLTEBundle\Model\TaskModel;
+use Ibisit\AdminLTEBundle\Model\TaskModel;
 use PHPUnit\Framework\TestCase;
 
 class TaskModelTest extends TestCase

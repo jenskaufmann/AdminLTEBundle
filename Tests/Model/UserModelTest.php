@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace KevinPapst\AdminLTEBundle\Tests\Model;
+namespace Ibisit\AdminLTEBundle\Tests\Model;
 
-use KevinPapst\AdminLTEBundle\Model\UserModel;
+use Ibisit\AdminLTEBundle\Model\UserModel;
 use PHPUnit\Framework\TestCase;
 
 class UserModelTest extends TestCase
